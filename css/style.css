@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px; 
+    color: rgb(165, 164, 164);
+}
+
+
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 99% 1000%;
+}
+
+header {
+    margin: 50px auto 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 100px;
+}
+
+
+
+header p {
+    padding: 0 350px 0;
+}
+
+.buttons {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.button-green {
+    background-color: hsl(171, 66%, 44%);
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 600 !important;
+    color: #fff;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 40px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
+
+.button-green:hover {
+    transform: scale(1.04, 1);
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+.button-blue {
+    background-color: hsl(233, 100%, 69%);
+    
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 600 !important;
+    color: #fff;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 40px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
+
+.button-blue:hover {
+    transform: scale(1.04, 1);
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+.section-info {
+    text-align: center;
+}
+
+.section-info p {
+    padding: 0 350px 0;
+}
+
+.features-row {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.features-left {
+    float: left;
+    width: 50%;
+}
+
+.features-right {
+    float: left;
+    width:50%;
+    padding: 0 150px;
+}
+
+.features-image {
+    width: 550px;
+    height: auto;
+}
+
+.access {
+    text-align: center;
+}
+
+.access-image {
+    margin-top: 40px;
+}
+
+.workflow-div {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    margin:auto;
+    width: 60%;
+}
+
+.worflow-div .workflow-item {
+    grid-column: span 3;
+    grid-row: 1 / 3;
+}
+
+.clients {
+    margin-bottom: 40px;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 25px;
+}
+
+.action {
+    text-align: center;
+}
+
+footer {
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(235, 235, 235);
+}
+
+.footer-links {
+    margin: 0;
+    padding: 60px 0 0 30px;
+    float: left; 
+    width: 40%;
+    text-align: left;
+    height: 120px;
+}
+
+.footer-links li {
+    margin: 10px;
+}
+
+.footer-logo {
+    margin: 40px 10px 0 80px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons {
+    margin-left: 230px;
+    float: left; 
+    width: 25%;
+}
