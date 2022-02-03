@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;800&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -8,7 +8,7 @@ html, body {
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 800;
 }
 
 h3 {
@@ -39,6 +39,8 @@ body {
 header {
     margin: 50px auto 20px;
     text-align: center;
+    background-color: transparent;
+    background-image: url('images/bg-header-desktop.png');
 }
 
 .logo {
@@ -145,11 +147,15 @@ header p {
     margin-top: 40px;
 }
 
+article {
+    text-align: center;
+}
 .workflow-div {
     display: grid;
     grid-template-columns: repeat(3, 250px);
     margin:auto;
     width: 60%;
+    margin-top: 30px;
 }
 
 .worflow-div .workflow-item {
@@ -157,7 +163,7 @@ header p {
     grid-row: 1 / 3;
 }
 
-.clients {
+section {
     margin-bottom: 40px;
 }
 
@@ -182,8 +188,7 @@ footer {
 }
 
 .footer-links {
-    margin: 0;
-    padding: 60px 0 0 30px;
+    padding: 15px 0 0 30px;
     float: left; 
     width: 40%;
     text-align: left;
